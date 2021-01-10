@@ -30,3 +30,22 @@ section.mission {
     background-image: url("https://picsum.photos/id/1031/5446/3063.jpg");
     padding-top: 35px;
     }
+
+    section.contact {
+        display: inline-flex;
+    }   
+    section.contact article {
+        margin-RIGHT: 2EM;
+    }
+
+    main {
+        margin: 0 50px;
+    }
+
+    footer {
+        padding: 20px 50px;
+        position: fixed;
+        bottom: 0;
+        background-color: lightgray;
+        width: 100%;
+    }
