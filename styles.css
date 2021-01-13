@@ -101,8 +101,12 @@ section.mission {
       .card {
         display: flex;
         flex-wrap: wrap;
-        background: silver;
         margin: var(--card-margin);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      }
+      .card:hover {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
       }
   
       .card > * {
@@ -119,6 +123,7 @@ section.mission {
         --bkg-color: #fff;
         --anchor-color: #0033cc;
       }
+      
       body.dark-theme {
         --text-color: #eee;
         --bkg-color: #121212;
@@ -132,3 +137,7 @@ section.mission {
       a {
         color: var(--anchor-color);
       }
+
+      .media {
+        max-height: 210px;
+    }
