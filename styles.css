@@ -141,3 +141,13 @@ section.mission {
       .media {
         max-height: 210px;
     }
+
+    i.fa {
+        font-size: 3rem;
+        margin: 0.5rem 1rem;
+        color: gray;
+    }
+    i.fa:hover {
+        color: rgb(43, 71, 230);
+        font-weight: bold;
+      }
